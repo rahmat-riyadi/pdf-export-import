@@ -33,6 +33,7 @@ class VoteImport implements ToModel
             'kelurahan' => $row[5] ?? '-',
             'rt' => '00'. $row[7],
             'rw' => '00'. $row[8],
+            'tps' => $row[9],
             'kota' => $this->kota,
             'kecamatan' => $this->kecamatan,
         ]);
